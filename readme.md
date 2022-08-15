@@ -30,3 +30,30 @@ de sortie(a) exclure les personnes décédées (mais inclure les frères et sœu
 (b) exclure les personnes catholiques (mais inclure les frères et sœurs des personnes catholiques)
 
 Notez que ce puzzle a été écrit en juin 2017 (certaines personnes pourrait être mort depuis cette date).
+Entrées
+Ligne 1 : Le nombre de personnes
+Suivant n lignes: Nom Parent Année de naissance Année de décès Religion Sexe
+
+Si le peuple n’est pas mort, l’année du décès est remplacée par le trait d’union -.n
+Sortie
+Un nom par ligne, dans l’ordre de succession au trône : d’abord la Reine, puis tous ses descendants.
+Contraintes
+Exactement une personne n’a pas de parent (le nom du parent est remplacé par le trait d’union -).
+Il n’y a pas deux frères et sœurs du même sexe d’une personne qui ont la même année de naissance.
+1 ≤ ≤ 100n
+Exemple
+Entrées
+6
+Elizabeth - 1926 - Anglican F
+Charles Elizabeth 1948 - Anglican M
+William Charles 1982 - Anglican M
+George William 2013 - Anglican M
+Charlotte William 2015 - Anglican F
+Henry Charles 1984 - Anglican M
+Sortie
+Elizabeth
+Charles
+William
+George
+Charlotte
+Henry
