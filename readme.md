@@ -1,4 +1,4 @@
- 	<h1>Objectif</h1>
+<h1>Objectif</h1>
 Vous devez produire l’ordre de succession au trône britannique d’une liste de personnes données.
 L’ordre est simple:
 d’un descendant A, le suivant dans l’ordre est le premier enfant de A B.Ensuite
