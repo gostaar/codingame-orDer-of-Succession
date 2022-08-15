@@ -30,6 +30,7 @@ de sortie(a) exclure les personnes décédées (mais inclure les frères et sœu
 (b) exclure les personnes catholiques (mais inclure les frères et sœurs des personnes catholiques)
 
 Notez que ce puzzle a été écrit en juin 2017 (certaines personnes pourrait être mort depuis cette date).
+
 Entrées
 Ligne 1 : Le nombre de personnes
 Suivant n lignes: Nom Parent Année de naissance Année de décès Religion Sexe
